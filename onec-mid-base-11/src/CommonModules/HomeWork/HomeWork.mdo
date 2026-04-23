@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2219dcdf-479a-47fb-95f9-a8f1b6981dea">
+  <name>HomeWork</name>
+  <synonym>
+    <key>ru</key>
+    <value>Home work</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

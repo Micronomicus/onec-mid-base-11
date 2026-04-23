@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="89925914-77d5-4dd1-994d-b9aa6051da1f">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d3b054f-44b9-4db9-a7ab-66128e16a6ff">
   <producedTypes>
-    <objectType typeId="e0ac9614-6f1f-4bca-b18f-e52ff042e84a" valueTypeId="19f59f9f-e55d-4fdb-a688-8b7ef635562b"/>
-    <refType typeId="c99c8e2d-aa59-42e4-949f-acce57cbcfb6" valueTypeId="420587c3-3e71-40bb-9663-e9048adb1f59"/>
-    <selectionType typeId="4cc69445-02d4-4bb4-8ab2-63c110470e2f" valueTypeId="6e4bc4f3-e590-4269-9c0e-5d81a2da2285"/>
-    <listType typeId="dfd82db1-d57c-468a-9f11-993601807536" valueTypeId="0df6547a-af51-4792-b734-802a03b38ba8"/>
-    <managerType typeId="e95a2e8c-94d5-434f-9ac8-de012e295153" valueTypeId="67e1056e-0b63-4a22-94d9-f909abdab14a"/>
+    <objectType typeId="70f38571-92a6-4151-a3c3-1b4cf68f2c6e" valueTypeId="d900eff8-a405-4f14-aa86-68912fc00891"/>
+    <refType typeId="eea362d7-a0e6-4564-b65b-8ebbf6a56951" valueTypeId="00d60052-880d-4c94-ae1f-106c4548e32d"/>
+    <selectionType typeId="79950c03-8b73-47b5-9fe2-41dd79a095b4" valueTypeId="69bded3d-7b22-4415-b6bd-5609530e9248"/>
+    <listType typeId="05766a39-f3f5-494c-8132-5c59da18dd21" valueTypeId="84244958-ec1d-4ac1-8ff2-ce69b198a2bc"/>
+    <managerType typeId="317e2a46-8c85-4edd-8449-86c1be98265c" valueTypeId="7267f64b-a17a-4970-9348-b719cd0e54d1"/>
   </producedTypes>
   <name>ДЗ_КонтактныеЛица</name>
   <synonym>
     <key>ru</key>
-    <value>Контактные лица</value>
+    <value>Д з контактные лица</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.ДЗ_КонтактныеЛица.StandardAttribute.Code</inputByString>
@@ -30,7 +30,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="8477b831-3d4c-424d-b5af-67770bb94be0">
+  <attributes uuid="673303a8-214d-4d6e-afe4-d6cfbd8c3684">
     <name>КонтактныйТелефон</name>
     <synonym>
       <key>ru</key>
@@ -48,7 +48,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="c432b1bb-cdd9-4d1d-a479-9641511149e9">
+  <attributes uuid="c79beeda-fbfc-47c0-8522-0b98c55b603c">
     <name>Должность</name>
     <synonym>
       <key>ru</key>
@@ -63,7 +63,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="85a523af-0441-45fc-8c9d-5bdc1d9d4d08">
+  <attributes uuid="26cbc082-b06f-427d-b8a8-fc4e87978e40">
     <name>ДействуетНаОсновании</name>
     <synonym>
       <key>ru</key>
@@ -72,7 +72,7 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>150</length>
+        <length>100</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -81,7 +81,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="6b848b64-9154-4453-869e-05886d9ec397">
+  <attributes uuid="090fb339-219e-498c-9a98-c506c6d872d1">
     <name>Заметка</name>
     <synonym>
       <key>ru</key>
